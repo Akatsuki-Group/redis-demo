@@ -26,7 +26,7 @@ public class RedisConfig {
         Config config = new Config();
         config.useSingleServer()
                 .setAddress("redis://124.71.38.83:6379")
-                .setPassword("tt19950826tt")
+                .setPassword("*********")
                 .setDatabase(0);
         //config.setCodec(new JsonJacksonCodec());
         return (Redisson) Redisson.create(config);
